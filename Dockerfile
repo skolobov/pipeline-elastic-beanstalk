@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.13.0a4-slim
 
 # Update base Linux packages and install Git
 RUN apt-get update && apt-get upgrade -y && apt-get install -y git
